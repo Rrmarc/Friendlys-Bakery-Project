@@ -1,0 +1,117 @@
+*{padding: 0;
+margin: 0;
+}
+
+body{
+    background: #D6EAF8;
+}
+
+header h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Petit Formal Script', cursive;
+    font-weight: bold;
+    background-color:pink;
+    margin: 0;
+    padding: 5%;
+    padding-bottom:0; 
+    text-decoration: none;
+    list-style-type: none;
+
+    
+}
+
+header:hover{
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer ul{
+    padding:0 20px;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 10px;
+}
+footer ul li:hover{
+    color:pink;
+    
+
+}
+
+nav{
+    margin: 5% 0 0 0;
+}
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#shopicon{
+    position: fixed;
+
+    top:30px;
+    right:50px;
+}
+
+
+
+footer{
+    background:#020006;
+}
+
+
+
+.box{
+    background:#F5B7B1;
+    width:500px;
+    height:300px;
+    margin: 0 auto;  
+}
+
+.box img{
+    width:80px;
+    align-content: center;
+    position:relative;
+    top:30px;
+    left:30px;
+    border-radius:5%;
+}
+
+button{
+    font-size:20px;
+    border-radius:5%;
+    font-family: 'Petit Formal Script', cursive;
+    margin-top:20px;
+}
+
+button:hover{
+    background-color:#D2B4DE;
+    
+}
+
+.description{
+    padding-top:10px; 
+
+}
+
+.box h2, p{
+    color:#2F72D1;
+}
+
+.home h1{
+    text-align: center;
+    font-size:30px;
+    font-family:'Petit Formal Script', cursive;
+    margin: 5% 0 10% 0;
+}
+
+
+@media (min-width: @screen-sm-min) { 
+    
+}
